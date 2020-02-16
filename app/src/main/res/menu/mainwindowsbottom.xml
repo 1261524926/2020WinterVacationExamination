@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/family"
+        android:icon="@drawable/home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/set"
+        android:icon="@drawable/flower"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/mine"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/add"
+        app:showAsAction="never"/>
+
+</menu>
